@@ -39,7 +39,7 @@ pipeline{
              
              catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                  
-             sh 'mvn pmd345:pmd'
+             sh 'mvn pmd3:pmd'
              
              }
             
